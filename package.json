@@ -1,0 +1,33 @@
+{
+  "name": "scorm-wrapper",
+  "version": "0.0.1",
+  "description": "A TypeScript-based wrapper for handling SCORM (Sharable Content Object Reference Model) interactions in e-learning applications.",
+  "main": "/dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/youssefachehboune/scorm-wrapper.git"
+  },
+  "keywords": [
+    "SCORM",
+    "TypeScript",
+    "e-learning",
+    "LMS",
+    "Wrapper"
+  ],
+  "author": "yachehbo",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
